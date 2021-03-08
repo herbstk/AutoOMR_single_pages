@@ -49,7 +49,7 @@ def signal_handler(signal, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 ### SETTINGS ###
-WORKERS = 1
+WORKERS = 7
 
 # outdir set-up
 OUTDIR_DIRS = {

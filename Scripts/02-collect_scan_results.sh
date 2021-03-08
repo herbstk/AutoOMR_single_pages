@@ -4,4 +4,4 @@
 ## it will collect the automatically determined answers and transfer them to the database
 
 gnome-terminal --title "collecting and uploading scan answers" -- \
-               bash -c "~/AutoOMR_single_page/Scripts/collect_all_data.sh Scans_processed 2>&1 | tee -a Logs/03-upload_scan_results.log"
+               bash -c "~/AutoOMR_single_pages/Scripts/collect_all_data.sh Scans_processed 2>&1 | tee -a Logs/02-collect_scan_results.log"

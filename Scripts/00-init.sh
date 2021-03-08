@@ -7,7 +7,7 @@ mkdir Scanning
 mkdir Scans_processed
 mkdir Logs
 
-for f in ~/AutoOMR_single_page/Scripts/0*sh; do
+for f in ~/AutoOMR_single_pages/Scripts/0*sh; do
     echo "copying $(basename $f)"
     cp $f .
 done

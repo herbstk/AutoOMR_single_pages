@@ -7,7 +7,7 @@ for d in "$1"/*; do
     if [[ -d "$d" ]]; then
         if [[ ! -f "$d"/collected_answers ]]; then
             echo "Collecting answers for directory $d..."
-            Rscript ~/AutoOMR_single_page/Scripts/collect_sp_questionnaires.R $d
+            Rscript ~/AutoOMR_single_pages/Scripts/collect_sp_questionnaires.R $d
             touch "$d"/collected_answers
         else
             echo "Answers of directory $d already have been collected. Skipping..."

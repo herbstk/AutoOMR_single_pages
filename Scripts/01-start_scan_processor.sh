@@ -6,4 +6,4 @@
 CURD=$(pwd)
 cd Scanning
 gnome-terminal --title "scan processor (press Ctrl-C to STOP)" -- \
-               bash -c "python3 ~/AutoOMR_single_page/auto_omr_sp.py -v -d ~/AutoOMR_single_page/Templates $CURD/Scans_processed 2>&1 | tee -a $CURD/Logs/01-start_scan_processor.log"
+               bash -c "python3 ~/AutoOMR_single_pages/auto_omr_sp.py -v -d ~/AutoOMR_single_pages/Templates $CURD/Scans_processed 2>&1 | tee -a $CURD/Logs/01-start_scan_processor.log"
